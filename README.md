@@ -1,4 +1,5 @@
-# Java - notes
+# Java notes. "Java: A Beginner's Guide, Ninth Edition, 9th Edition".
+
 
 ## Some interesting/important facts
 
@@ -11,3 +12,21 @@
 - **javac <file>** build a class Name.class;
 - **java <Name>** run an builded file;
 - Its a good practice name file with same class name for a good organization.
+
+## Variables
+- All variables must be declared before use:
+- **Syntax:**
+
+```java
+// type name = value;
+int total = 2 + 2;
+```
+
+- If a variable is declared without value, you need to **initialize** it first: 
+
+```java
+double myDouble;
+System.out.prinln(myDouble); // does not work.
+double = 3.13; // initialization.
+```
+
